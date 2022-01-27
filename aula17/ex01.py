@@ -7,7 +7,7 @@ pos_menor =  []
 while cont < 5:
     num_atual = int(input(f'Digite um número para a posição {cont + 1}: '))
     lista_num.append(num_atual)
-    if maior == 0:
+    if cont == 0:
         maior = num_atual
         pos_maior.append(cont + 1)
     elif maior < num_atual:
@@ -16,7 +16,7 @@ while cont < 5:
         pos_maior.append(cont + 1)
     elif maior == num_atual:
         pos_maior.append(cont + 1)
-    if menor == 0:
+    if cont == 0:
         menor = num_atual
         pos_menor.append(cont + 1)
     elif menor > num_atual:
