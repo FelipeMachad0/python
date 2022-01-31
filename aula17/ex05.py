@@ -8,6 +8,7 @@ while True:
     continuar = str(input('Quer continuar? [S/N] ')).upper()[0]
     if continuar == 'N':
         break
+n.sort()
 print('A lista completa é: ', end = '')
 while True:
     print(n[cont2], end = '  ')
