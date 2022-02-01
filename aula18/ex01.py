@@ -30,5 +30,5 @@ while True:
     if continuar == 'N':
         break
 print(f'Ao todo tem {cont} pessoas cadastradas')
-print(f'O maior peso foi {maiorpeso[0]}, esse é o peso de {maiorpeso[1:]}')
-print(f'O menor peso foi {menorpeso[0]}, esse é o peso de {menorpeso[1:]}')
+print(f'O maior peso foi {maiorpeso[0]}kg, esse é o peso de {maiorpeso[1:]}')
+print(f'O menor peso foi {menorpeso[0]}kg, esse é o peso de {menorpeso[1:]}')
